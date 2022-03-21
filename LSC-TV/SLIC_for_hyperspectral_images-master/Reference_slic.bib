@@ -1,0 +1,26 @@
+% Encoding: UTF-8
+
+@Article{Xu2018SLIC,
+  author   = {Xiang Xu and Jun Li and Changshan Wu and Antonio Plaza},
+  title    = {Regional clustering-based spatial preprocessing for hyperspectral unmixing},
+  journal  = {Remote Sensing of Environment},
+  year     = {2018},
+  volume   = {204},
+  pages    = {333 - 346},
+  issn     = {0034-4257},
+  abstract = {Hyperspectral unmixing is an important technique for remote sensing image exploitation. It aims to decompose a mixed pixel into a collection of spectrally pure components (called endmembers), and their corresponding proportions (called fractional abundances). In recent years, many studies have revealed that unmixing using spectral information alone does not sufficiently incorporate the spatial information in the remotely sensed hyperspectral image, as the pixels are treated as isolated entities without taking into account the existing local correlation among them. To address this issue, several spatial preprocessing methods have been developed to include spatial information in the spectral unmixing process. In this paper, we present a new spatial preprocessing method which presents several advantages over existing methods. The proposed method is derived from the Simple Linear Iterative Clustering (SLIC) method, which adapts the global search scope of the clustering into local regions. As a result, the spatial correlation and the spectral similarity are intrinsically incorporated at the clustering step, which results in O(N) computational complexity of the clustering procedure with N being the number of pixels in the image. First, a regional clustering is iteratively performed by using spatial and spectral information simultaneously. The obtained result is a set of clustered partitions that exhibit both spectral similarity and spatial correlation. Then, for each partition we select a subset of candidate pixels with high spectral purity. Finally, the obtained candidate pixels are gathered together and fed to a spectral-based endmember extraction method to extract the final endmembers and their corresponding fractional abundances. Our newly developed method naturally integrates the spatial and the spectral information to retain the most relevant endmember candidates. Our experimental results, conducted using both synthetic and real hyperspectral scenes, indicate that the proposed method can obtain accurate unmixing results with less than 0.5% of the number of pixels used by other state-of-the-art methods. This confirms the advantages of integrating spatial and spectral information for hyperspectral unmixing purposes.},
+  doi      = {https://doi.org/10.1016/j.rse.2017.10.020},
+  keywords = {Hyperspectral unmixing, Integration of spatial and spectral information, Clustering, Simple Linear Iterative Clustering (SLIC), Endmember extraction algorithms},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0034425717304832},
+}
+
+@TechReport{Achanta2010SLIC,
+  author      = {Radhakrishna Achanta, Appu Shaji, Kevin Smith, Aurelien Lucchi, Pascal Fua, and Sabine Susstrunk},
+  title       = {SLIC Superpixels},
+  institution = {EPFL},
+  year        = {2010},
+  number      = {149300},
+  month       = jun,
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
