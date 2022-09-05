@@ -1,9 +1,0 @@
-程童凯师兄TVSDM
-这篇文章里面也用到了TV项、2,1稀疏项，可以作为参考
-
-dataset
-包含3个真实数据集，其中sandiego_corrected.mat是aviris数据集的全图，但是没有全图的groundtruth
-模拟数据集可以参考TVSDM中的设置，用aviris数据集制作
-
-对比方法
-包含4种对比方法的code，其中‘新建文件夹’中是会用到的一些基础code，不是对比算法
