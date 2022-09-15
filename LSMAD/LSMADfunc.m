@@ -1,4 +1,5 @@
 function [B,S] = LSMADfunc(X,r,k,epsilon,iter)
+%there is something wrong with the func
 B=X;
 [num_pixel,num_band]=size(X);
 S=zeros(num_pixel,num_band);
